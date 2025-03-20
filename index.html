@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Jason's Site </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="myprojects.html" type="text">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu_open" />
+
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header class="sticky-top">
+            <div class="row bg-dark text-white">
+                <div class="col-11 p-1 bg-cyan">
+                    <h1 style="font-size:3rem">Jason Antony M</h1>
+                    <p class="text-danger" style="font-size: 2rem;"> A python Developer</p>
+                </div>
+
+                <!-- Example single danger button -->
+                <div class="btn-group col-1  p-3 d-flex justify-content-end align-items-center">
+                    <button type="button" class="btn btn-danger dropdown-item" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class="material-symbols-outlined">
+                            menu_open
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About Me</a></li>
+                        <li><a class="dropdown-item" href="myprojects.html">My projects</a></li>
+                        <a class="dropdown-item  btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Contact Me
+                        </a>
+                        <!-- <li><a class="dropdown-item" href="contact.html">Contact Me</a></li> -->
+                        <li><a class="dropdown-item" href="certificates.html">Certificates</a></li>
+                        <li><a class="dropdown-item " href=" #alert " content="available soon">Achievements</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </header>
+
+
+    <!-- mypicture -->
+    <div class="row  p-4">
+        <div class="col-6 col-lg-4 col-sm-12">
+            <img src="myprojects/mee.jpg" alt="Jason's pic"
+                class="rounded float-end 200px*200px scale-10 img-fluid rounded h-80 w-100 data-mdb-animation-start="
+                onHover">
+        </div>
+        <div class=" col-6 pt-5 col-lg-8 pb-sm-5 ps-sm-5 col-sm-12">
+            <h1 style="font-family:Honk,serif; font-size: 65px;"><br>Jason Antony M</h1>
+            <h3 style="font-family:Almendra, serif;">A Undergraduate student studying <b><u>B.Sc Computer
+                        science</u></b> degree
+                at <b>loyola college of arts and
+                    science.</b> <br>
+                <t>I have completed many projects based on <b>&nbsp;HTML,&nbsp;CSS,&nbsp;JAVASCRIPT,&nbsp; PYTHON,
+                        &nbsp;FLASK,&nbsp; DJANGO,
+                        &nbsp;BOOTSTRAP 5, &nbsp;TKINTER(lib)</b>. <br>You can see My project in this site.
+            </h3>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--  contact Form -->
+    <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="row">
+                            <div class="col">
+                                <label>Enter Your Name</label>
+                                <input type="text" class="form-control pt-2" placeholder="First name"
+                                    aria-label="First name" required="">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control m-4" placeholder="Last name"
+                                    aria-label="Last name" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" required="">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="Phoneno" class="form-label">Phone Number</label>
+                            <input type="phonenumber" class="form-control" id="Phoneno" required="">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address</label>
+                            <input type="textarea" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor" required="">
+                        </div>
+                        <div class="col-md-12">
+                            <select class="form-select" aria-label="Default select example" required="">
+                                <option selected>Select Your city</option>
+                                <option value="1">Salem</option>
+                                <option value="2">Chennai</option>
+                                <option value="3">Bangalore</option>
+                            </select>
+
+                        </div>
+                        <div class="col-md-12">
+                            <select class="form-select" aria-label="Default select example" required="">
+                                <option selected>Select Your State</option>
+                                <option value="1">Tamil Nadu</option>
+                                <option value="2">Kerala</option>
+                                <option value="3">Andhra Pradesh</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputZip" class="form-label">Zip</label required="">
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Above entered details are correct
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
